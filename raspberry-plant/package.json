@@ -1,0 +1,22 @@
+{
+  "name": "posto-backend",
+  "version": "0.0.1",
+  "description": "backend for posto blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo": "node mongo.js"
+  },
+  "author": "Daniel Tucker",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
