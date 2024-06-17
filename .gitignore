@@ -1,21 +1,16 @@
-# dependencies
+# Folders
 /node_modules
-/.pnp
-.pnp.js
+/old
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# Hidden Files
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
