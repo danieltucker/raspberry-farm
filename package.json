@@ -4,7 +4,9 @@
   "description": "# Table of Contents 1. [Installation](#installation--configuration) 2. [API Refrences](#api-references)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js",
+    "dev": " nodemon app.js"
   },
   "keywords": [],
   "author": "",
