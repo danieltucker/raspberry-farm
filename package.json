@@ -2,7 +2,7 @@
   "name": "raspberry-farm",
   "version": "1.0.0",
   "description": "# Table of Contents 1. [Installation](#installation--configuration) 2. [API Refrences](#api-references)",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "app.js",

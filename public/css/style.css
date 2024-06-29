@@ -3,49 +3,60 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 85%;
+    padding: 20px;
 }
-nav {
-    
+a {
+    text-decoration: none;
+    color: #4d4d4d;
 }
 
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
+header div {
+    display: inline-block;
+}
+header li {
+    display: inline-block;
+    border-bottom: 6px solid #dbdbdb;
+}
+header li:hover {
+    border-bottom: 6px solid #4d4d4d;
+}
+header .logo {
+    font-size: 40px;
+}
+header .search
+
+.fontThin {
     font-weight: 100;
     font-style: normal;
 }
 
-.roboto-light {
-    font-family: "Roboto", sans-serif;
+.fontLight {
     font-weight: 300;
     font-style: normal;
 }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
+.fontRegular {
     font-weight: 400;
     font-style: normal;
 }
 
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
+.fontMedium {
     font-weight: 500;
     font-style: normal;
 }
 
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
+.fontBold {
     font-weight: 700;
     font-style: normal;
 }
 
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
+.fontThinItalic {
     font-weight: 100;
     font-style: italic;
 }
 
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
+.fontMediumItalic {
     font-weight: 500;
     font-style: italic;
 }
